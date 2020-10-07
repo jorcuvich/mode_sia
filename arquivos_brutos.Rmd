@@ -1,0 +1,29 @@
+---
+title: "Tratamento inicial dos dados"
+autor: "Wagner Jorcuvich"
+output:
+  html_document:
+    df_print: paged
+    toc: true
+    toc_float: true
+    collapsed: true
+    number_sections: true
+    toc_depth: 6
+---
+
+
+# Importação de bancos de dados
+
+## Preparando o R
+
+Os *datasets* baixados no DATASUS tem a extensão `.dbc`. Foi necessáro instalar umma biblioteca para leitura, utilizei o `read.dbc`[^1].
+
+[^1]: CRAM disponível em <https://cran.r-project.org/web/packages/read.dbc/index.html>
+
+
+Carregando a biblioteca:
+```{r }
+library(read.dbc)
+```
+
+## testea
