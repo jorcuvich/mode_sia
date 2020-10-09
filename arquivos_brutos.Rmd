@@ -26,4 +26,13 @@ Carregando a biblioteca:
 library(read.dbc)
 ```
 
-## testea
+## Bases
+
+Os dados sobre internações hospitalares foram extraídos do Sistema de Infomações Hospitalares (SIA), um banco de dados administrativo que contém informações de todas as internações em hospitais do Sistema Único de Saúde (SUS) no Brasil. Para o estudo foi filtrado apenas dados do Estado do Paraná.
+Os registros de admissão contêm diagnósticos clínicos codificados de acordo com a 10ª Revisão da Classificação Estatística Internacional de Doenças e Problemas Relacionados à Saúde (CID-10). 
+
+# Escolha da População
+
+A população do estudo foi retirada de uma coorte de mães e neonatos cujos partos e readmissões foram capturados no SIH e a alta pós-natal ocorreu entre janeiro de 2014 e dezembro de 2016.
+
+
