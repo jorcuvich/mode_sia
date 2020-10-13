@@ -37,6 +37,8 @@ library(read.dbc)
 
 ## Bases
 
+### Inclusão da base SIH
+
 Os dados sobre internações hospitalares foram extraídos do Sistema de Infomações Hospitalares (SIA), um banco de dados administrativo que contém informações de todas as internações em hospitais do Sistema Único de Saúde (SUS) no Brasil. Os registros de admissão contêm diagnósticos clínicos codificados de acordo com a 10ª Revisão da Classificação Estatística Internacional de Doenças e Problemas Relacionados à Saúde (CID-10)[^2].
 
 
