@@ -2793,27 +2793,47 @@ div.tocify {
 </div>
 
 
+<div id="objetivos" class="section level1">
+<h1><span class="header-section-number">1</span> Objetivos</h1>
+<ol style="list-style-type: decimal">
+<li>Classificar os partos de forma geral e por categorias, conforme características maternas, da gestação e parto.</li>
+<li>Identificar o perfil nos neonatos readmitidos e associá-los.</li>
+<li>Analisar a representação dos grupos Robson nos partos cesáreos no Brasil e comparar com outros países.</li>
+<li>Avaliar a ocorrência de partos cesáreos ocorridos sem existência de fortes evidências de um perfil adequado, de acordo com características obstétricas.</li>
+<li>Identificar gestantes mais propensas à realização de partos cesáreos, de acordo com características maternas, da gestação e obstétricas.</li>
+<li>Investigar a prevalência de óbitos no período neonatal, de acordo com a modalidade de parto e características obstétricas.</li>
+<li>Quantificar o risco de óbitos no período neonatal, de modo geral e por modalidade de parto, de acordo com características maternas, da gestação e obstétricas e maternas.</li>
+</ol>
+</div>
 <div id="importação-de-bancos-de-dados" class="section level1">
-<h1><span class="header-section-number">1</span> Importação de bancos de dados</h1>
+<h1><span class="header-section-number">2</span> Importação de bancos de dados</h1>
 <div id="preparando-o-r" class="section level2">
-<h2><span class="header-section-number">1.1</span> Preparando o R</h2>
+<h2><span class="header-section-number">2.1</span> Preparando o R</h2>
 <p>Os <em>datasets</em> baixados no DATASUS tem a extensão <code>.dbc</code>. Foi necessáro instalar umma biblioteca para leitura, utilizei o <code>read.dbc</code><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a>.</p>
 <p>Carregando a biblioteca:</p>
 <pre class="r"><code>library(read.dbc)</code></pre>
 </div>
 <div id="bases" class="section level2">
-<h2><span class="header-section-number">1.2</span> Bases</h2>
-<p>Os dados sobre internações hospitalares foram extraídos do Sistema de Infomações Hospitalares (SIA), um banco de dados administrativo que contém informações de todas as internações em hospitais do Sistema Único de Saúde (SUS) no Brasil. Para o estudo foi filtrado apenas dados do Estado do Paraná. Os registros de admissão contêm diagnósticos clínicos codificados de acordo com a 10ª Revisão da Classificação Estatística Internacional de Doenças e Problemas Relacionados à Saúde (CID-10).</p>
+<h2><span class="header-section-number">2.2</span> Bases</h2>
+<p>Os dados sobre internações hospitalares foram extraídos do Sistema de Infomações Hospitalares (SIA), um banco de dados administrativo que contém informações de todas as internações em hospitais do Sistema Único de Saúde (SUS) no Brasil. Os registros de admissão contêm diagnósticos clínicos codificados de acordo com a 10ª Revisão da Classificação Estatística Internacional de Doenças e Problemas Relacionados à Saúde (CID-10)<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>.</p>
+<p>Nesta base, filtrando pelo CID-10, é possível separar</p>
+<p>XV O00-O99 Gravidez, parto e puerpério. XVI P00-P96 Algumas afecções originadas no período perinatal.</p>
+<div id="inclusão-da-base-sinasc" class="section level3">
+<h3><span class="header-section-number">2.2.1</span> Inclusão da base SINASC</h3>
+<p>Devida a insuficiência de informações na base SIH como situação conjugal e raça/cor da mãe, tipo de gravidez, tipo de apresentação do feto, indução do parto e doença congênita percebida ao nascer, foi necessário lançar mão da base Sistema de Informação sobre Nascidos Vivos (SINASC)<a href="#fn3" class="footnote-ref" id="fnref3"><sup>3</sup></a>.</p>
+</div>
 </div>
 </div>
 <div id="escolha-da-população" class="section level1">
-<h1><span class="header-section-number">2</span> Escolha da População</h1>
-<p>A população do estudo foi retirada de uma coorte de mães e neonatos cujos partos foram capturados no SIH e a alta pós-natal ocorreu entre janeiro de 2014 e dezembro de 2016.</p>
+<h1><span class="header-section-number">3</span> Escolha da População</h1>
+<p>A população do estudo foi retirada de uma coorte de mães e neonatos cujos partos e readmissões foram capturados no SIH e a alta pós-natal ocorreu entre janeiro de 2014 e dezembro de 2016.</p>
 </div>
 <div class="footnotes">
 <hr />
 <ol>
 <li id="fn1"><p>CRAM disponível em <a href="https://cran.r-project.org/web/packages/read.dbc/index.html" class="uri">https://cran.r-project.org/web/packages/read.dbc/index.html</a><a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>Bases do DATASUS <a href="http://www2.datasus.gov.br/DATASUS/index.php?area=0901" class="uri">http://www2.datasus.gov.br/DATASUS/index.php?area=0901</a><a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>Bases do DATASUS <a href="http://www2.datasus.gov.br/DATASUS/index.php?area=0901" class="uri">http://www2.datasus.gov.br/DATASUS/index.php?area=0901</a><a href="#fnref3" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
 
