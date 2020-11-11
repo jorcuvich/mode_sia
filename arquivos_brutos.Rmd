@@ -1,5 +1,5 @@
 ---
-title: "Tratamento inicial dos dados"
+title: "Projeto de pesquisa"
 autor: "Wagner Jorcuvich"
 output:
   html_document:
@@ -10,6 +10,44 @@ output:
     number_sections: true
     toc_depth: 6
 ---
+
+# Desenho Geral do Estudo
+
+## Sujeito
+
+Neonatos hospitalares readmitidos a termo saudável.
+
+## Objeto
+
+Caracterização do tempo de internação ao nascer.
+
+## Tema
+
+Tempo de permanência ao nascer e risco de readmissão.
+
+## Amostra e Local
+
+Readmitidos em hospitais paranaenses com base no SUS no ano de 2019.
+
+## Problema
+
+## Hipótese
+
+## Objetivos Geral
+
+## Objetivos Específicos
+
+## Revisão da literatura
+
+## Desenho metodológico
+
+## Restultados esperados
+
+## Possíveis impactos
+
+## Cronograma
+
+
 
 # Objetivos
 
