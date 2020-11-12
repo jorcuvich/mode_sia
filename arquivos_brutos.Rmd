@@ -11,53 +11,83 @@ output:
     toc_depth: 6
 ---
 
-# Desenho Geral do Estudo
+# Projeto de pesquisa
 
-## Sujeito
+## Desenho Geral do Estudo
+
+### Sujeito e Objeto
 
 Neonatos hospitalares readmitidos a termo saudável.
-
-## Objeto
-
 Caracterização do tempo de internação ao nascer.
 
-## Tema
+### Tema e Problema
 
 Tempo de permanência ao nascer e risco de readmissão.
+Crianças nascidas em hosptital que ficam internadas menos tempo tem maior risco de readmissão?
 
-## Amostra e Local
+#### Amostra e Delimitações
 
-Readmitidos em hospitais paranaenses com base no SUS no ano de 2019.
+Nascidos vivos em hospitais paranaense com bases disponiíves no SINASC, que fororam readmitidos em hospitais do mesmo estado, com base no SIH, ano base 2019.
 
-## Problema
-
-## Hipótese
-
-## Objetivos Geral
-
-## Objetivos Específicos
-
-## Revisão da literatura
-
-## Desenho metodológico
-
-## Restultados esperados
-
-## Possíveis impactos
-
-## Cronograma
+### Hipótese
 
 
+### Objetivos
+#### Objetivos Geral
 
-# Objetivos
+Investigar a prevalência de readmissões de neonatos, associando a tempo de internação.
 
-1. Classificar os partos de forma geral, conforme características maternas, da gestação e parto.
-2. Identificar o perfil nos neonatos readmitidos e associá-los à interação da mãe.
-3. Analisar a representação dos grupos Robson nos partos cesáreos no Brasil e comparar com outros países.
-4. Avaliar a ocorrência de partos cesáreos ocorridos sem existência de fortes evidências de um perfil adequado, de acordo com características obstétricas.
-5. Identificar gestantes mais propensas à realização de partos cesáreos, de acordo com características maternas, da gestação e obstétricas.
-6. Investigar a prevalência de óbitos no período neonatal, de acordo com a modalidade de parto e características obstétricas.
-7. Quantificar o risco de óbitos no período neonatal, de modo geral e por modalidade de parto, de acordo com características maternas, da gestação e obstétricas e maternas. 
+#### Objetivos Específicos
+
+2. Identificar o perfil nos neonatos readmitidos no SIH e associá-los à interação.
+3. Associar os readmitidos à suas condições de nascimento no SINASC.
+4. Avaliar as características obstéticas, complicações e doêncas.
+5. Investigar a prevalência de readmissões, de acordo com tempo de internação.
+7. Quantificar o risco de readmissão baseado em tempo de permanência. 
+
+### Revisão da literatura
+
+#### Seleção em Banco de Artigos
+
+Preferencialmente artigos, utilizando o pesquisador consolidado CAFE-Capes, limitado a 15 anos.
+
+##### Problema da pesquisa
+
+Eixo de Palavras
+
+* Patient readmission
+* Neonatal
+* Newborn infant
+* Neonatology
+* Hospitalization
+* Cesarean delivery
+* Lenglh of stay
+* Hostpial record
+* DATASUS
+* SINASC
+* SIH
+* Hospital Records
+
+##### Técnicas
+
+* Record Linkage
+* Epidemiological methods
+* Medical record linkage
+* Bias
+* Data linkage
+* DATASUS
+
+
+### Cronograma
+```
+### Desenho metodológico
+### Restultados esperados
+### Possíveis impactos
+
+### Contribuição Científica
+```
+
+
 
 # Importação de bancos de dados
 
