@@ -39,11 +39,11 @@ Investigar a prevalência de readmissões de neonatos, associando a tempo de int
 
 #### Objetivos Específicos
 
-2. Identificar o perfil nos neonatos readmitidos no SIH e associá-los à interação.
-3. Associar os readmitidos à suas condições de nascimento no SINASC.
-4. Avaliar as características obstéticas, complicações e doêncas.
-5. Investigar a prevalência de readmissões, de acordo com tempo de internação.
-7. Quantificar o risco de readmissão baseado em tempo de permanência. 
+1. Identificar o perfil nos neonatos readmitidos no SIH e associá-los à interação.
+2. Associar os readmitidos à suas condições de nascimento no SINASC.
+3. Avaliar as características obstéticas, complicações e doêncas.
+4. Investigar a prevalência de readmissões, de acordo com tempo de internação.
+5. Quantificar o risco de readmissão baseado em tempo de permanência. 
 
 ### Revisão da literatura
 
